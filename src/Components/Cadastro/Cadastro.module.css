@@ -1,0 +1,33 @@
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formCad{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.input{
+
+    top: 441px;
+    left: 870px;
+
+    width: 340px;
+    height: 30px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+

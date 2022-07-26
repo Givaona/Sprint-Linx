@@ -5,15 +5,15 @@ import S from './Header.module.css';
 function Header() {
   return (
 
-    <div>
+    <div className={S.conteiner}>
       <p>uma seleção de produtos</p>
-      <h1>Especial para você</h1>
-      <p>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
-      <div className='botoes'>
-        <Button>Conheça a Linx</Button>
-        <Button>Ajude o algorítimo</Button>
-        <Button>Seus Produtos</Button>
-        <Button>Compartilhe</Button>
+      <h1>especial para você</h1>
+      <p id={S.h}>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
+      <div className={S.botoes}>
+        <Button props='Conheça a Linx'></Button>
+        <Button props='Ajude o algorítimo'></Button>
+        <Button props='Seus Produtos'></Button>
+        <Button props='Compartilhe'></Button>
       </div>
 
     </div>
