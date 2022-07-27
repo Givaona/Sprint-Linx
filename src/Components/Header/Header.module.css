@@ -20,14 +20,3 @@
 #h{
     padding: 20px;
 }
- /* div::after{
-    content: '';
-    bottom: 10px;
-    top: 320px;
-    height: 12%;
-    transform-origin: right;
-    transform: skewY(3deg);
-    width: 100%;
-    position: absolute;
-    background-color: #707070;
- } */

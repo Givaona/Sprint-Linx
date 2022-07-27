@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import Button from '../Button/Button';
 
-const Produtos = () => {
+const Produtos = ({dados}) => {
+  const {id, name, image, oldPrice, price, description,} =dados;
 
   const [produto, setProduto] = useState();
 
   async function handleRequisicao() {
-    const url = `https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1`
+    const url = `https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=${id}`
     const response = await fetch(url)
     const json = await response.json()
 

@@ -1,0 +1,13 @@
+.conteiner{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: 10px;
+    background-color: #707070;
+    height: 1px;
+    width: 30%;
+}

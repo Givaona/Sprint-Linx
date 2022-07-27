@@ -6,6 +6,7 @@ import Header from './Components/Header/Header.jsx';
 import Produtos from './Components/Produtos/Produtos.jsx';
 import "../styles/reset.css"
 import SecaoProduto from './Components/SecaoProduto/SecaoProduto.jsx';
+import NewsLetter from './Components/NewsLetter/NewsLetter.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,7 @@ function App() {
       <Header></Header>
       <Cadastro></Cadastro>
       <SecaoProduto></SecaoProduto>
-      <Produtos></Produtos>
+      <NewsLetter></NewsLetter>
       <Footer/>
     </div>
   )

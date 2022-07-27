@@ -1,11 +1,12 @@
 import React from 'react'
 import S from "../SecaoProduto/SecaoProduto.module.css";
+import Titulo from '../Titulo/Titulo';
 
 
 const SecaoProduto = () => {
   return (
     <div className={S.conteiner}>
-        <h3>Sua seleção especial</h3>
+        <Titulo props='Sua seleção especial'/>
     </div>
   )
 }
