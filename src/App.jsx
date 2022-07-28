@@ -15,7 +15,7 @@ function App() {
     <div>
       <Header></Header>
       <Cadastro></Cadastro>
-      <SecaoProduto></SecaoProduto>
+      <SecaoProduto/>
       <NewsLetter></NewsLetter>
       <Footer/>
     </div>

@@ -1,1 +1,13 @@
+.conteiner{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
 
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
